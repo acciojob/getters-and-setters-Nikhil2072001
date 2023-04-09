@@ -5,15 +5,15 @@ class Person {
 		this.age=age;
 	}
 
-  getName() {
+   get getName() {
     return this.name;
   }
 
-  getAge() {
+   get getAge() {
     return this.age;
   }
 
-  setAge(value) {
+ set setAge(value) {
     this.age = value;
   }
 }
